@@ -10,7 +10,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-//    Button add_btn, sub_btn, mul_btn, div_btn;
     Button[] btn = new Button[4];
     int[] ids = {R.id.add_button,R.id.sub_button,R.id.mul_button,R.id.div_button};
     EditText stNum, ndNum;
@@ -20,11 +19,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tablelayout);
-
-//        add_btn=findViewById(R.id.add_button);
-//        sub_btn=findViewById(R.id.sub_button);
-//        mul_btn=findViewById(R.id.mul_button);
-//        div_btn=findViewById(R.id.div_button);
 
         stNum = findViewById(R.id.first_number);
         ndNum = findViewById(R.id.second_number);
@@ -50,15 +44,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
-
-//        add_btn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                int num1=Integer.parseInt(stNum.getText().toString());
-//                int num2=Integer.parseInt(ndNum.getText().toString());
-//                res.setText(num1+num2+"");
-//            }
-//        });
     }
 
     public void Onclick(View view){
