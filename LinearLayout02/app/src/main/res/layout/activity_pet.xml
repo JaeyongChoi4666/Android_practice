@@ -31,8 +31,7 @@
 
     <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="invisible">
+        android:layout_height="match_parent" >
 
         <RadioButton
             android:id="@+id/rb1"
@@ -40,26 +39,30 @@
             android:layout_height="wrap_content"
             android:text="강아지"
             android:textSize="30dp"
-            android:checked="true" />
+            android:checked="true"
+            android:visibility="invisible"/>
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="고양이"
-            android:textSize="30dp"/>
+            android:textSize="30dp"
+            android:visibility="invisible"/>
 
         <RadioButton
             android:id="@+id/rb3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="북극곰"
-            android:textSize="30dp"/>
+            android:textSize="30dp"
+            android:visibility="invisible"/>
 
         <ImageView
             android:id="@+id/iv1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/dog" />
+            app:srcCompat="@drawable/dog"
+            android:visibility="invisible"/>
     </RadioGroup>
 </LinearLayout>

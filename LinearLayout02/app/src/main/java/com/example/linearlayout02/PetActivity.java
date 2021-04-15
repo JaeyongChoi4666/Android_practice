@@ -56,6 +56,12 @@ public class PetActivity extends AppCompatActivity {
                     rb2.setVisibility(View.VISIBLE);
                     rb3.setVisibility(View.VISIBLE);
                     iv1.setVisibility(View.VISIBLE);
+                }else{
+                    tv2.setVisibility(View.INVISIBLE);
+                    rb1.setVisibility(View.INVISIBLE);
+                    rb2.setVisibility(View.INVISIBLE);
+                    rb3.setVisibility(View.INVISIBLE);
+                    iv1.setVisibility(View.INVISIBLE);
                 }
             }
         });
