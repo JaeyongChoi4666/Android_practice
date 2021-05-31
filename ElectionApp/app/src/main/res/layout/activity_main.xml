@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#12887A">
+
+        <ImageView
+            android:id="@+id/topBanner"
+            android:layout_width="187dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/council" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        app:srcCompat="@drawable/seperateline" />
+
+    <ImageView
+        android:id="@+id/mainPage"
+        android:layout_width="wrap_content"
+        android:layout_height="580dp"
+        app:srcCompat="@drawable/mainpage" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#12887A"/>
+
+        <Button
+            android:id="@+id/btnJoin"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:backgroundTint="#12887A"/>
+    </LinearLayout>
+
+</LinearLayout>

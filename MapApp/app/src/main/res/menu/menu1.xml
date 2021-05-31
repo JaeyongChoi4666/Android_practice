@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/satelliteMap"
+        android:title="위성지도" />
+    <item
+        android:id="@+id/nomalMap"
+        android:title="일반지도" />
+    <item
+        android:title="사용자 등록 지점">
+        <menu>
+            <item
+                android:id="@+id/busanIT"
+                android:title="부산 IT 교육센터" />
+            <item
+                android:id="@+id/lotteDpt"
+                android:title="롯데백화점" />
+            <item
+                android:id="@+id/bexco"
+                android:title="벡스코" />
+        </menu>
+    </item>
+</menu>
